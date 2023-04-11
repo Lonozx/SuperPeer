@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+/* // font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+    font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #555555;
+}
+
+.headline{
+font-weight: 400;
+font-size: 68px;
+line-height: 75px;
+letter-spacing: 1px;
+color: #222222;
+}
+
+.title{
+    font-size: 62px;
+    align-self: center;
+color: #222222;
+}
+
+.container{
+    padding: 200px 207px;
+    align-items: center;
+}
+.button{
+    font-size: 16px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #000000;
+}
+
+.container__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 69px;
+}
+.container__header-button{
+    width: 112px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.container__main{
+    display: flex;
+    gap: 55px;
+}
+
+.container__main-button-req{
+    width: 189px;
+    height: 50px;
+    background: #FFD338;
+    border-radius: 10px;
+    border: none;
+}
+.description{
+    width: 438px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.container__main-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.container__main-right{
+    display: flex;
+    width: 50%;
+    position: relative;
+}
+
+.main-right-big{
+    width: 580px;
+    height: 550px;
+    position: absolute;
+    left: 185px;
+    top: -50px;
+}
+.main-right-small{
+    position: absolute;
+}
+.phone{
+    width: 270px;
+    height: 530px;
+}
+
+.container__description{
+width: 674px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+align-self: center;
+margin: 0px 100px;
+}
+
+.gradient{
+    width: 100vw;
+    /* height: 100vh; */
+    padding: 0;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) 83.85%, #FFFFFF 100%), #FFF9E8;
+
+}
+.gradient-lines{
+    background: url('../images/Vector.png');
+    background-size: cover;
+}
